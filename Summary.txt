@@ -1,0 +1,15 @@
+BORDER=ROUNDED
+UNIT=CM
+PAGE=10.5,14.8,PORTRAIT,HV
+DPI=300
+CARDSIZE=10.5,14.8
+
+LINK=C:\Users\mielp\Documents\Jeux_depann\Index.xlsx
+VISUAL=, 10, 10
+;Fond
+IMAGE=,C:\Users\mielp\Documents\Jeux_depann\Index.png,0%,0%,100%,100%
+IMAGE="1-{(IMAGE)}",[IMAGE],45.176%,12.187%,8%,8.18%,0,NP
+TEXTFONT="1-{(INDEX)}",[INDEX],35.294%,13.689%,77.647%,77.295%,LEFT,CENTER,0,100,Caveat Brush,12,T,#ffffff
+TEXTFONT="1-{(TYPE)}",[TYPE],28.706%,5.175%,43.294%,9.349%,CENTER,CENTER,0,100,Caveat Brush,16,T,#FFBF00
+;Chant
+ENDVISUAL
